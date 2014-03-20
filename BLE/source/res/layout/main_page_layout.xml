@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@*android:color/black" android:id="@id/scan_result" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/label_no_devices" android:layout_centerInParent="true" />
+    <com.redbear.redbearbleclient.view.PullRefreshListView android:id="@id/refresh_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/pageloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="100.0dip" android:layout_height="100.0dip">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="100.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="100.0dip" android:text="@string/pulltorefresh_refreshing_label" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

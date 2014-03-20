@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: blecontrollerapk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '18'
+  targetSdkVersion: '18'
+packageInfo:
+  cur_package: com.redbear.redbearbleclient
+  orig_package: com.redbear.redbearbleclient
+compressionType: false

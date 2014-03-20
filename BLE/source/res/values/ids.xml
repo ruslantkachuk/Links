@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="container">false</item>
+    <item type="id" name="headview_area">false</item>
+    <item type="id" name="text_devicename">false</item>
+    <item type="id" name="text_rssi">false</item>
+    <item type="id" name="btn_send">false</item>
+    <item type="id" name="edit_output">false</item>
+    <item type="id" name="edit_input">false</item>
+    <item type="id" name="pin_loading">false</item>
+    <item type="id" name="io_list">false</item>
+    <item type="id" name="pins_list">false</item>
+    <item type="id" name="scan_result">false</item>
+    <item type="id" name="refresh_listview">false</item>
+    <item type="id" name="pageloading">false</item>
+    <item type="id" name="detail">false</item>
+    <item type="id" name="text_info">false</item>
+    <item type="id" name="big_name">false</item>
+    <item type="id" name="uuid">false</item>
+    <item type="id" name="service">false</item>
+    <item type="id" name="name">false</item>
+    <item type="id" name="local_name">false</item>
+    <item type="id" name="head_contentLayout">false</item>
+    <item type="id" name="loading">false</item>
+    <item type="id" name="head_arrowImageView">false</item>
+    <item type="id" name="head_progressBar">false</item>
+    <item type="id" name="head_tipsTextView">false</item>
+    <item type="id" name="head_lastUpdatedTextView">false</item>
+    <item type="id" name="pin">false</item>
+    <item type="id" name="io_mode">false</item>
+    <item type="id" name="switcher">false</item>
+    <item type="id" name="number">false</item>
+    <item type="id" name="progressbar">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="menu_disconnect">false</item>
+</resources>

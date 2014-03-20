@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mainpage_listview_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+        <ImageView android:id="@id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/right_row" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_toLeftOf="@id/detail">
+            <TextView android:textSize="18.0sp" android:typeface="serif" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/big_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="BLE Shield" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:typeface="serif" android:textColor="@color/black" android:ellipsize="end" android:id="@id/uuid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="uuid: 713D0000-503E-4C75-BA94-3148F18D941E" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:typeface="serif" android:textColor="@color/black" android:ellipsize="end" android:id="@id/service" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="service: demo service" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:typeface="serif" android:textColor="@color/black" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="name: BLE Shield" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:typeface="serif" android:textColor="@color/black" android:ellipsize="end" android:id="@id/local_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="local_name: Test Device" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>
